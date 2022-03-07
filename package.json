@@ -1,0 +1,16 @@
+{
+  "name": "homectl",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "frontend-start": "cd frontend && npm run start -- --host 0.0.0.0",
+    "frontend-openapi": "backend/main.py generate frontend.json && cd frontend && npm run openapi",
+    "frontend-build": "cd frontend && npm run build",
+    "backend-start": "uvicorn --reload --port 8000 backend.main:app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dev-dependencies": {
+    "@openapitools/openapi-generator-cli": "^2.4.26"
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "spaces": 2,
+    "generator-cli": {
+        "version": "5.4.0"
+    },
+        "modelSuffix": "DTO",
+        "serviceSuffix": "Service",
+    "withInterfaces": true,
+    "modelPropertyNaming": "original"
+}
